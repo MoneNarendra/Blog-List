@@ -1,0 +1,39 @@
+.userinfo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-img {
+  height: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-img {
+    height: 150px;
+  }
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+  color: #12022f;
+}
+
+.role {
+  margin-top: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  color: #616e7c;
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 25px;
+  }
+  .role {
+    font-size: 15px;
+  }
+}

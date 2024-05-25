@@ -1,0 +1,43 @@
+.blog-item-container {
+  padding-left: 0px;
+  border-bottom: 1px solid #9aa5b1;
+}
+
+.title-date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #12022f;
+  font-weight: bold;
+}
+
+.date {
+  font-family: 'Roboto';
+  font-size: 8px;
+  color: #9aa5b1;
+  font-weight: 500;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 8px;
+  color: #9aa5b1;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 767px) {
+  .title {
+    font-size: 22px;
+  }
+  .date {
+    font-size: 18px;
+  }
+  .description {
+    font-size: 16px;
+  }
+}
